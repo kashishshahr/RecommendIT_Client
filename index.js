@@ -210,6 +210,11 @@ app.get('/weekly', (req, res) => {
     })
     .catch(err => console.log(err))
 })
+app.get('/aboutus', (req, res) => {
+ 
+    res.render('aboutus')
+ 
+})
 
 
 app.use((req, res) => {
