@@ -215,6 +215,11 @@ app.get('/aboutus', (req, res) => {
     res.render('aboutus')
  
 })
+app.get('/contactus', (req, res) => {
+ 
+    res.render('contactus')
+ 
+})
 
 
 app.use((req, res) => {
